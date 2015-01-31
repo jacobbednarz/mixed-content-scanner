@@ -16,6 +16,10 @@ $ gem install mixed_content_scanner
 The tool accepts a single parmeter which is the URL you wish to scan for mixed
 content.
 
+```bash
+$ mixed-content-scanner https://example.com
+```
+
 ## Tests
 
 To ensure I don't break changes in future releases, be sure to include tests

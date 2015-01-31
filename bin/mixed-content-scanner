@@ -1,4 +1,6 @@
 #!/usr/bin/env ruby
 $:.unshift(File.expand_path('../../lib', __FILE__))
+require 'mixed_content_scanner'
 
+raise MixedContentScanner::EmptyUrl if ARGV.empty?
 puts "Running as an executable!"
