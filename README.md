@@ -1,30 +1,32 @@
-# MixedContentScanner
+# SSL mixed content scanner
 
-TODO: Write a gem description
+This tool is designed to quickly identify any mixed content a page contains in
+order to serve a secure page without any security warnings.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Via RubyGems:
 
-```ruby
-gem 'mixed_content_scanner'
+```bash
+$ gem install mixed_content_scanner
 ```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install mixed_content_scanner
 
 ## Usage
 
-TODO: Write usage instructions here
+The tool accepts a single parmeter which is the URL you wish to scan for mixed
+content.
+
+## Tests
+
+To ensure I don't break changes in future releases, be sure to include tests
+with all changes (the exception here is for documentation changes). The test
+suite of choice is minitest.
+
+Running tests can be done using `rake test`.
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/mixed_content_scanner/fork )
+1. Fork it (https://github.com/jacobbednarz/mixed_content_scanner/fork)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
